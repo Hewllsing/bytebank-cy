@@ -1,0 +1,211 @@
+.container {
+  background: linear-gradient(180deg, #47a138 0%, #ffffff 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 2.27rem 0;
+  width: 1199px;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner h1 {
+  width: 434px;
+  height: 270px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.banner > img {
+  width: 580px;
+  height: 352px;
+}
+
+.vantagens {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.vantagens h2 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.vantagens__itens {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-top: 1rem;
+}
+
+.vantagens__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 279px;
+  height: 180px;
+}
+
+.vantagens__item p {
+  margin: 0.8rem 0;
+  text-align: center;
+  width: 100%;
+  color: #767676;
+}
+
+.vantagens__item img {
+  width: 73px;
+  height: 56px;
+  margin-bottom: 0.6rem;
+}
+
+@media (max-width: 425px) {
+  .conteudo {
+    width: 100%;
+    max-width: 602px;
+  }
+
+  .banner {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 1.25rem;
+  }
+
+  .banner h1 {
+    width: 80%;
+    height: 50%;
+    font-size: 1.25rem;
+    text-align: center;
+  }
+
+  .banner > img {
+    width: 80%;
+    height: 80%;
+    max-width: 560px;
+    max-height: 342px;
+  }
+
+  .vantagens h2 {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .vantagens__item {
+    width: 80%;
+    text-align: center;
+  }
+
+  .vantagens__item h3 {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  .vantagens__itens {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+  .conteudo {
+    width: 100%;
+    max-width: 602px;
+  }
+
+  .banner {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 1.25rem;
+  }
+
+  .banner h1 {
+    width: 80%;
+    height: 50%;
+    font-size: 1.25rem;
+    text-align: center;
+  }
+
+  .banner > img {
+    width: 80%;
+    height: 80%;
+    max-width: 560px;
+    max-height: 342px;
+  }
+
+  .vantagens__item {
+    width: 40%;
+    text-align: center;
+  }
+
+  .vantagens__item h3 {
+    font-size: 0.8rem;
+  }
+
+  .vantagens__itens {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .conteudo {
+    width: 90%;
+  }
+
+  .banner h1 {
+    font-size: 25px;
+  }
+
+  .banner > img {
+    width: 60%;
+    height: 60%;
+  }
+
+  .vantagens h2 {
+    font-size: 20px;
+  }
+
+  .vantagens__itens {
+    width: 100%;
+  }
+
+  .vantagens__item {
+    width: 25%;
+    height: 100%;
+  }
+
+  .vantagens__item h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .vantagens__item p {
+    margin: 0.8rem 0;
+    text-align: center;
+    width: 100%;
+    color: #767676;
+  }
+
+  .vantagens__item img {
+    width: 73px;
+    height: 56px;
+    margin-bottom: 0.6rem;
+  }
+}

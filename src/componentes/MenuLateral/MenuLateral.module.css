@@ -1,0 +1,53 @@
+.item {
+  text-align: center;
+}
+
+.menu {
+  width: 180px;
+  height: 340px;
+  padding: 24px;
+  list-style: none;
+  position: absolute;
+  left: 57%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #e4ede3;
+  z-index: 10;
+}
+
+.divisor {
+  width: 90%;
+  height: 1px;
+  background-color: #111111;
+  margin: 1rem auto;
+}
+
+.link {
+  color: #111111;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #47a138;
+  font-weight: 600;
+}
+
+.linkAtivo {
+  color: #47a138;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.fechar__modal {
+  background: transparent;
+  position: absolute;
+  border: none;
+  cursor: pointer;
+  color: #000000;
+  right: 16px;
+  top: 16px;
+}

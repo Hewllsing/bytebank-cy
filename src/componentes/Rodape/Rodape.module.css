@@ -1,0 +1,98 @@
+.container {
+  min-width: 100vw;
+  height: 224px;
+  background-color: #111111;
+  display: flex;
+  align-items: center;
+}
+
+.caixa__rodape {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  min-width: 1199px;
+  margin: 0 auto;
+}
+
+.coluna__infos {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.coluna__infos p {
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.logo__bytebank {
+  height: 32px;
+  width: 145px;
+}
+
+.logos {
+  display: flex;
+  width: 70%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logos > img {
+  width: 32px;
+  height: 32px;
+}
+
+@media (max-width: 425px) {
+  .container {
+    align-items: flex-start;
+    height: 500px;
+  }
+
+  .caixa__rodape {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    min-width: 100%;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+  .container {
+    height: 178px;
+  }
+
+  .caixa__rodape {
+    padding: 0.8rem;
+    min-width: 100%;
+  }
+
+  .coluna__infos {
+    max-width: 33.33%;
+  }
+
+  .logo__bytebank {
+    height: 70%;
+    width: 70%;
+  }
+
+  .logos > img {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .container {
+    height: 220px;
+  }
+
+  .caixa__rodape {
+    padding: 0.8rem;
+    min-width: 90%;
+  }
+}

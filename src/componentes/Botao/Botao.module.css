@@ -1,0 +1,49 @@
+.btn__primario {
+  background: #47a138;
+  padding: 14px 12px;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn__secundario {
+  background: transparent;
+  padding: 14px 12px;
+  border: 2px solid #47a138;
+  border-radius: 8px;
+  color: #47a138;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+@media (max-width: 425px) {
+  .btn__primario {
+    font-size: 0.5rem;
+    font-weight: 500;
+    padding: 8px 6px;
+  }
+
+  .btn__secundario {
+    font-size: 0.5rem;
+    font-weight: 400;
+    padding: 8px 6px;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 768px) {
+  .btn__primario {
+    font-size: 0.7rem;
+    font-weight: 500;
+    padding: 10px 8px;
+  }
+
+  .btn__secundario {
+    font-size: 0.7rem;
+    font-weight: 400;
+    padding: 10px 8px;
+  }
+}
